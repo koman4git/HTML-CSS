@@ -5,6 +5,11 @@ body{
   font-family: Arial;
   box-sizing: border-box;
 }
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
 .page-header{
     width: 100%;
     padding: 50px;
@@ -103,6 +108,20 @@ p {
     height: 245px;
     border: 2px solid red;
     float: right;
-    margin: 50px 50px 0 0;
+    margin: 50px 50px 50px 0;
     background-color: #445161;
+}
+/третья секция/
+.dignity{
+    width: 100%;
+    background-color: ;
+    
+}
+.third-section{
+    padding: 50px 50px 50px 50px;
+    background-color: #f5f5f5;
+}
+.dignity-heading{
+    display: block;
+    margin: 0 0 0 414px; 
 }
