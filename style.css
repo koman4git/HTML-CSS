@@ -114,14 +114,57 @@ p {
 /третья секция/
 .dignity{
     width: 100%;
-    background-color: ;
     
 }
 .third-section{
-    padding: 50px 50px 50px 50px;
+    padding: 50px 50px 15px 50px;
     background-color: #f5f5f5;
+}
+.third-section:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 .dignity-heading{
     display: block;
     margin: 0 0 0 414px; 
+}
+.third-section-items-left{
+    float: left;
+    width: 537px;
+    padding: 0 0 0 50px;
+}
+.third-section-list-left{
+    list-style-type: none;
+    padding: 0 0 0 0;
+    
+}
+.third-section-items-right{
+    float: right;
+    width: 537px;
+}
+.third-section-list-right{
+    list-style-type: none;
+    padding: 0 0 0 0;
+}
+.third-section-list-item{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    margin: 0 0 35px 0;
+}
+.third-section-list-item:before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 6px;
+    left: -37px;
+    background-color: #445161;
+    background-image: url(img/icon/plus_icon.png);
+    background-size: auto;
+    margin: 0 0 0 0px;
 }
