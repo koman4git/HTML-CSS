@@ -117,7 +117,7 @@ p {
     
 }
 .third-section{
-    padding: 50px 50px 15px 50px;
+    padding: 50px 38px 15px 50px;
     background-color: #f5f5f5;
 }
 .third-section:after {
@@ -138,7 +138,6 @@ p {
 .third-section-list-left{
     list-style-type: none;
     padding: 0 0 0 0;
-    
 }
 .third-section-items-right{
     float: right;
