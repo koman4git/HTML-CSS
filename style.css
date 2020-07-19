@@ -1,7 +1,6 @@
 body{
   width: 1280px;
   margin: 0 auto;
-  border: 2px solid red;
   font-family: Arial;
   box-sizing: border-box;
 }
@@ -166,4 +165,60 @@ p {
     background-image: url(img/icon/plus_icon.png);
     background-size: auto;
     margin: 0 0 0 0px;
+}
+/четвертая секция/
+.padding-site {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.screenshots {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.screenshots-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.screenshots-item {
+  width: 578px;
+  margin: 0 27px 20px 31px;;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.screenshots-item:nth-child(4),
+.screenshots-item:nth-child(5){
+  margin: 30px;
+}
+
+.screenshots-photo {
+  display: block;
+  width: 200px;
+  height: 150px;
+  margin: 0 20px 0 0;
+  background-image:url(img/icon/image.png);
+}
+
+.screenshots-item-txt {
+  width: 80%;
+  box-sizing: border-box;
+  
+}
+
+.screenshots-item-txt h3 {
+  margin: 0 0 20px 0;
+}
+
+.screenshots-item-txt p {
+  margin: 0 0 0 0;
 }
