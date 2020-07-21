@@ -178,7 +178,8 @@ p {
   min-height: 487px;
   padding: 50px;
   box-sizing: border-box;
-  }
+  border: 1px solid red;
+}
 
 .screenshots-title {
   width: 100%;
