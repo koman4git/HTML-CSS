@@ -305,3 +305,88 @@ p {
     font-weight: 400;
     line-height: 18px;
 }
+/*6 секция*/
+.prices{
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ffffff;
+}
+.prices-title{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    
+}
+.price {
+    width: 300px;
+    padding: 0 0px 10px 0;
+    border: 1px solid #445162;
+    background-color: #445162;
+    box-sizing: border-box;
+    margin: 0 45px 0 0;
+    border-radius: 2%;
+}
+
+.price-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.price-txt {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.price-list{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.price-btn {
+  display: block;
+  width: 260px;
+  padding: 5px 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  outline: none;
+  color: #445161;
+}
+
+.price-btn:hover {
+  background-color: #445161;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.price-btn:active {
+  background-color: #fff;
+  color: #445161;
+}
