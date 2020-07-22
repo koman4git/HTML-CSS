@@ -60,14 +60,11 @@ h2{
 }
 .page-header-product-photo{
     display: block;
-    width: 469px;
-    height: 214px;
     background-color: #ffffff;
     float: right;
 }
 /вторая секция/
 .about-product{
-    width: 100%;
     padding: 50px;
     box-sizing: border-box;
 }
@@ -106,7 +103,7 @@ p {
     width: 430px;
     height: 245px;
     float: right;
-    margin: 50px 50px 50px 0;
+    margin:     50px 50px 50px 0;
     background-color: #445161;
 }
 /третья секция/
@@ -184,7 +181,6 @@ p {
 .screenshots-title {
   width: 100%;
   margin: 0 0 35px 0;
-  /*   height: 22px; */
   color: #445161;
   text-align: center;
   font-size: 30px;
@@ -207,7 +203,7 @@ p {
 
 .screenshots-item:nth-child(4),
 .screenshots-item:nth-child(5) {
-  margin-bottom: ;
+  margin: 0;
 }
 
 .screenshot-img {
