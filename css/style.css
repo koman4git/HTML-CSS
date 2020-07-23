@@ -160,7 +160,7 @@ p {
     top: 6px;
     left: -37px;
     background-color: #445161;
-    background-image: url(img/icon/plus_icon.png);
+    background-image:url(../img/icon/plus_icon.png);
     background-size: auto;
     margin: 0 0 0 0px;
 }
