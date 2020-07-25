@@ -386,3 +386,110 @@ p {
   background-color: #fff;
   color: #445161;
 }
+/*footer и блок Contacts*/
+.main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1280px;
+    padding: 50px;
+    background-color: #445162;
+}
+.main-footer-title {
+    display: block;
+    width: 100%;
+    margin: 0 0 30px 0;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.main-footer-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 0 46px 0 0;
+}
+.main-footer-form input[type="text"],
+.main-footer-form input[type="email"],
+.main-footer-form textarea {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+    text-transform: capitalize;
+    font-family: arial;
+}
+.main-footer-form input[type="text"]:hover,
+.main-footer-form input[type="email"]:hover,
+.main-footer-form textarea:hover {
+    background-color: gray;
+    color: white;
+    border-color: white;
+}
+.main-footer-form input[type="text"]:hover::placeholder,
+.main-footer-form input[type="email"]:hover::placeholder,
+.main-footer-form textarea:hover::placeholder {
+    color: white;
+}
+.main-footer-form input[type="text"]:focus,
+.main-footer-form input[type="email"]:focus,
+.main-footer-form textarea:focus {
+    background-color: gray;
+    color: white;
+    border: 2px solid green;
+}
+.main-footer-form textarea {
+    width: 100%;
+    height: 170px;
+    resize: none;
+}
+.main-footer input[type="submit"] {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    color: #445162;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+}
+.main-footer input[type="submit"]:hover{
+    background-color: gray;
+    color: white;
+    border-color: white;
+}
+.main-footer input[type="submit"]:active {
+    background-color:  #ffffff;
+    color:  #445162;
+}
+.main-footer-contacts {
+    width: 266px;
+    height: 300px;
+    border: 1px solid white;
+}
+.main-footer-contact a{
+    display: block;
+    height: 23px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin: 0 0 30px 0;
+}
+.icon-btn{
+    color: white;
+    filter: invert(100%);
+}
