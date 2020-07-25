@@ -160,7 +160,11 @@ p {
     top: 6px;
     left: -37px;
     background-color: #445161;
+<<<<<<< HEAD
     background-image:url(../img/icon/plus_icon.png);
+=======
+    background-image: url(../img/icon/plus_icon.png);
+>>>>>>> 3a94bef5c2287f373ce50ec3863e9b15841e2a3d
     background-size: auto;
     margin: 0 0 0 0px;
 }
@@ -490,6 +494,5 @@ p {
     margin: 0 0 30px 0;
 }
 .icon-btn{
-    color: white;
     filter: invert(100%);
 }
