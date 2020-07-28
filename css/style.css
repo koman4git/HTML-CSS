@@ -55,7 +55,7 @@ h2{
     position: absolute;
     top: 6px;
     left: -31px;
-    background-image:url(img/icon/check_icon.png);
+    background-image:url(../img/icon/check_icon.png);
     background-size: cover;
 }
 .page-header-product-photo{
@@ -167,11 +167,7 @@ p {
     top: 6px;
     left: -37px;
     background-color: #445161;
-<<<<<<< HEAD
     background-image:url(../img/icon/plus_icon.png);
-=======
-    background-image: url(../img/icon/plus_icon.png);
->>>>>>> 3a94bef5c2287f373ce50ec3863e9b15841e2a3d
     background-size: auto;
     margin: 0 0 0 0px;
 }
@@ -354,8 +350,11 @@ p {
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
+    box-sizing: border-box;
 }
-
+.price:last-child {
+    margin: 0;
+}
 .price-txt {
     display: block;
     width: 100%;
@@ -497,12 +496,111 @@ p {
     font-weight: 400;
     line-height: 24px;
     text-decoration: none;
-    margin: 0 0 30px 0;
+    margin: 0 0 30px 33px;
+    
 }
-.icon-btn{
-    filter: invert(100%);
+.social-contact{
+    position: relative;
 }
-
+.social-contact-2{
+    position: relative;
+}
+.social-contact-3{
+    position: relative;
+}
+.social-contact-4{
+    position: relative;
+}
+.social-contact:before{
+    display: block;
+    content: "";
+    width: 24px;
+    height: 26px;
+    background-image: url(../img/icon/skype_icon.png);
+    position: absolute;
+    top: 0;
+    left: -27px;
+}
+.social-contact-2:before{
+    display: block;
+    content: "";
+    width: 24px;
+    height: 26px;
+    background-image: url(../img/icon/icq_icon.png);
+    position: absolute;
+    top: 0;
+    left: -27px;
+}
+.social-contact-3:before{
+    display: block;
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url(../img/icon/email_icon.png);
+    position: absolute;
+    top: 0;
+    left: -27px;
+}
+.social-contact-4:before{
+    display: block;
+    content: "";
+    width: 24px;
+    height: 23px;
+    background-image: url(../img/icon/phone_icon.png);
+    position: absolute;
+    top: 0;
+    left: -27px;
+}
+.social-link-wrp{
+    display: flex;
+    justify-content: space-between;
+}
+.social-link{
+    display: block;
+    width: 43px;
+    height: 42px;
+    background-image: url(../img/icon/social_buttons.png);
+}
+.social-link:nth-of-type(1){
+    background-position: 0 0;
+}
+.social-link:nth-of-type(2){
+    background-position: 191px 0;
+}
+.social-link:nth-of-type(3){
+    background-position: 141px 0;
+}
+.social-link:nth-of-type(4){
+    background-position: 91px 0;
+}
+.social-link:nth-of-type(5){
+    background-position: 42px 0;
+}
+.social-link:nth-of-type(1):hover{
+    background-position: 0 0;
+    background-color: red;
+    border-radius: 50%;
+}
+.social-link:nth-of-type(2):hover{
+    background-position: 191px 0;
+    background-color: red;
+    border-radius: 50%;
+}
+.social-link:nth-of-type(3):hover{
+    background-position: 141px 0;
+    background-color: red;
+    border-radius: 50%;
+}
+.social-link:nth-of-type(4):hover{
+    background-position: 91px 0;
+    background-color: red;
+    border-radius: 50%;
+}
+.social-link:nth-of-type(5):hover{
+    background-position: 42px 0;
+    background-color: red;
+    border-radius: 50%;
+}
 .main-footer-contact a:hover{
     text-decoration: underline;
 }
